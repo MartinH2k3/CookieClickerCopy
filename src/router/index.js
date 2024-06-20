@@ -1,0 +1,24 @@
+import { createRouter, createWebHistory } from 'vue-router'
+
+import App from "@/App.vue";
+import Shop from "@/views/Shop.vue";
+import Main from "@/Main.vue";
+
+const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes: [
+    {
+      path: '/',
+      name: 'home',
+      component: Main
+    },
+    {
+      path: '/shop',
+      name: 'shop',
+      component: Shop
+    }
+  ]
+})
+
+
+export default router

@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  margin:0;
+  background: #ffb6c1;
+  display:flex;
+  justify-content: center;
+}
