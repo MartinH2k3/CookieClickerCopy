@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import App from "@/App.vue";
 import Shop from "@/views/Shop.vue";
-import Main from "@/Main.vue";
+import Main from "@/views/Main.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
